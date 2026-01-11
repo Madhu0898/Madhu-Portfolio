@@ -1,0 +1,60 @@
+/* src/styles/Education.css */
+.education {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #f8fafc;
+  animation: slideIn 1s ease-out;
+}
+
+.education .container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.education h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.edu-item {
+  background: rgba(15, 23, 42, 0.6);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  backdrop-filter: blur(8px);
+  transition: transform 0.3s;
+}
+
+.edu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.edu-item h3 {
+  font-size: 1.4rem;
+  color: #e2e8f0;
+  margin-bottom: 0.5rem;
+}
+
+.edu-item p {
+  color: #cbd5e1;
+  margin: 0.4rem 0;
+}
+
+.years {
+  font-weight: 600;
+  color: #38bdf8;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

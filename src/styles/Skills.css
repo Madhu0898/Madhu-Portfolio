@@ -1,0 +1,56 @@
+/* src/styles/Skills.css */
+.skills {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #f8fafc;
+  animation: fadeIn 1s ease-out;
+}
+
+.skills .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.skill-item {
+  background: rgba(15, 23, 42, 0.7);
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  color: #e2e8f0;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease;
+  animation: popIn 0.4s forwards;
+}
+
+.skill-item:hover {
+  transform: scale(1.05);
+  background: rgba(56, 189, 248, 0.15);
+  color: #ffffff;
+  border-color: #38bdf8;
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

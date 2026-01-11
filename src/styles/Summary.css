@@ -1,0 +1,46 @@
+/* src/styles/Summary.css */
+.summary {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #f8fafc;
+  animation: fadeIn 0.7s ease-out;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.summary h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.summary h2::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 50px;
+  height: 4px;
+  background: #38bdf8;
+  border-radius: 2px;
+}
+
+.summary p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #cbd5e1; /* softer white */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

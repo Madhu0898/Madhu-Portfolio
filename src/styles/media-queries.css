@@ -1,0 +1,272 @@
+/* src/styles/media-queries.css */
+/* ================
+   MOBILE-FIRST RESPONSIVE OVERRIDES
+   Applies only to tablet & mobile views
+   ================ */
+
+/* -------------------------
+   General Container Fix
+   ------------------------- */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1.2rem !important;
+    max-width: 100% !important;
+  }
+}
+
+/* -------------------------
+   Hero Section
+   ------------------------- */
+@media (max-width: 600px) {
+  .hero {
+    padding: 3rem 1rem !important;
+  }
+
+  .hero .profile-pic {
+    width: 110px !important;
+    height: 110px !important;
+  }
+
+  .hero h1 {
+    font-size: 2rem !important;
+  }
+
+  .hero .title {
+    font-size: 1.2rem !important;
+  }
+
+  .hero .contact {
+    font-size: 0.95rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .btn-download {
+    padding: 0.65rem 1.5rem !important;
+    font-size: 0.95rem !important;
+  }
+}
+
+/* -------------------------
+   Summary Section
+   ------------------------- */
+@media (max-width: 768px) {
+  .summary {
+    padding: 3.5rem 1rem !important;
+  }
+
+  .summary h2 {
+    font-size: 1.8rem !important;
+  }
+
+  .summary p {
+    font-size: 1rem !important;
+    line-height: 1.65 !important;
+  }
+}
+
+/* -------------------------
+   Experience Section
+   ------------------------- */
+@media (max-width: 900px) {
+  .projects-flex {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .project-card {
+    width: 95% !important;
+    max-width: none !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .experience h2 {
+    font-size: 2rem !important;
+  }
+
+  .company-header h3 {
+    font-size: 1.45rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 4rem 1.5rem !important;
+  }
+
+  .project-card {
+    padding: 1.8rem !important;
+  }
+
+  .project-card h4 {
+    font-size: 1.3rem !important;
+  }
+
+  .date-range,
+  .project-card p {
+    font-size: 0.98rem !important;
+  }
+
+  .project-tag {
+    top: 1rem !important;
+    right: 1.2rem !important;
+    font-size: 0.8rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .experience {
+    padding: 3.5rem 1rem !important;
+  }
+
+  .experience h2 {
+    font-size: 1.8rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .experience h2::after {
+    width: 60px !important;
+    bottom: -10px !important;
+  }
+
+  .company-header h3 {
+    font-size: 1.35rem !important;
+    padding: 0 0.5rem !important;
+  }
+
+  .duration {
+    font-size: 0.95rem !important;
+    margin-bottom: 2.2rem !important;
+  }
+
+  .project-card {
+    padding: 1.6rem !important;
+    width: 100% !important;
+    min-width: unset !important;
+    border-radius: 14px !important;
+    margin-bottom: 1.8rem !important;
+  }
+
+  .project-card h4 {
+    font-size: 1.25rem !important;
+  }
+
+  .project-card p,
+  .project-card li {
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+  }
+
+  .project-card h5 {
+    font-size: 1.05rem !important;
+    margin-top: 1.1rem !important;
+  }
+
+  .project-tag {
+    top: 0.9rem !important;
+    right: 1rem !important;
+    font-size: 0.75rem !important;
+    padding: 0.2rem 0.7rem !important;
+  }
+
+  .project-card ul {
+    padding-left: 1.3rem !important;
+  }
+}
+
+/* -------------------------
+   Skills Section
+   ------------------------- */
+@media (max-width: 768px) {
+  .skills {
+    padding: 3.5rem 1rem !important;
+  }
+
+  .skills h2 {
+    font-size: 1.8rem !important;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)) !important;
+    gap: 0.9rem !important;
+  }
+
+  .skill-item {
+    padding: 0.7rem 0.9rem !important;
+    font-size: 0.95rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)) !important;
+  }
+
+  .skill-item {
+    padding: 0.6rem 0.8rem !important;
+    font-size: 0.9rem !important;
+  }
+}
+
+/* -------------------------
+   Education Section
+   ------------------------- */
+@media (max-width: 768px) {
+  .education {
+    padding: 3.5rem 1rem !important;
+  }
+
+  .education h2 {
+    font-size: 1.8rem !important;
+  }
+
+  .edu-item {
+    padding: 1.6rem !important;
+  }
+
+  .edu-item h3 {
+    font-size: 1.25rem !important;
+  }
+
+  .edu-item p {
+    font-size: 0.95rem !important;
+  }
+}
+
+/* -------------------------
+   Footer
+   ------------------------- */
+@media (max-width: 600px) {
+  .footer {
+    padding: 1.8rem 1rem !important;
+    font-size: 0.9rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .footer p {
+    margin: 0.3rem 0 !important;
+  }
+}
+
+/* -------------------------
+   Header / Navigation
+   ------------------------- */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .nav-logo {
+    font-size: 1.4rem !important;
+  }
+
+  .nav-links {
+    gap: 1rem !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-links a {
+    font-size: 1rem !important;
+  }
+}
