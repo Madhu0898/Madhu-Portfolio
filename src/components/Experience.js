@@ -9,7 +9,7 @@ const Experience = () => {
 
         <div className="company-header">
           <h3>NV Data Systems Private Limited — Bengaluru, India</h3>
-          <p className="duration">Nov 2022 - Dec 2025</p>
+          <p className="duration">AUG 2022 - FEB 2026</p>
         </div>
 
         {/* Flex container for projects */}
@@ -18,7 +18,7 @@ const Experience = () => {
           <div className="project-card">
             <span className="project-tag">Recent</span>
             <h4>Project-2: User Sign-Up & Retail</h4>
-            <p className="date-range">(September 2024 - December 2025)</p>
+            <p className="date-range">(September 2024 - February 2026)</p>
             <p>
               <strong>Technologies:</strong> React, JavaScript (ES6+), REST
               APIs, Tailwind CSS, Material UI, Jira

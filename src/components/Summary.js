@@ -8,7 +8,7 @@ const Summary = () => {
         <h2>Summary</h2>
         <p>
           <b>
-            Frontend Developer with 3.4 years of experience building scalable,
+            Frontend Developer with 3+ years of experience building scalable,
             high-performance web applications using React.js, JavaScript (ES6+),
             HTML5, CSS3, and Redux. Proven ability to develop responsive,
             accessible user interfaces, implement reusable component
